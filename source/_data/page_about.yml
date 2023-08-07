@@ -1,0 +1,60 @@
+intro:
+  main_title: "About"
+  content_1:
+    "Incontro DevOps Italia è una conferenza organizzata da GrUSP. <br>
+     GrUSP è una community fondata nel 2003 come PHP User Group, che è diventata il punto di riferimento in Italia per le buone pratiche in tutti i campi dello sviluppo web.<br>
+     Da allora abbiamo organizzato moltissime conferenze, perseguendo sempre l'obiettivo di creare opportunità per le persone di incontrarsi, imparare, condividere e crescere insieme."
+  content_2:
+    "Il nostro obiettivo è migliorare l'ecosistema italiano di sviluppo web. <br>
+    Organizziamo eventi e workshop di alta qualità per developer, e promuoviamo la creazione di User Group locali (PUG), aiutandoli nelle loro attività.<br>
+    La diversità e l'inclusione sono sempre state al centro delle nostre attività.
+    Applichiamo un codice di condotta da molti anni e abbiamo programmi di borse di studio (scholarships) per ciascuna delle nostre conferenze."
+more:
+  title: "Incontro DevOps Italia (IDI)"
+  content_1:
+    "IDI è la conferenza italiana dedicata alle tematiche DevOps. Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability..."
+  content_2:
+past_edition:
+  title: "Guarda le passate edizioni della conferenza"
+  video_url: "https://www.youtube.com/embed/videoseries?list=PLWK9j6ps_unkeR9t67ryXP8PcQEJUPVt6"
+  video_caption: "Guarda i video dell'ultima edizione"
+team:
+  title: "Il team"
+  intro: ""
+  members:
+    member_1:
+      name: "Giovanna Ferrari"
+      role: "sponsor management"
+      pic_filename: "giovanna.jpg"
+    member_2:
+      name: "Michele Finelli"
+      role: "esimio"
+      pic_filename: "michele.jpg"
+    member_3:
+      name: "Giorgio Fochesato"
+      role: "community manager"
+      pic_filename: "giorgio.jpg"
+    member_4:
+      name: "Francesco Fullone"
+      role: "troublemaker"
+      pic_filename: "fullo.jpg"
+    member_5:
+      name: "Lara Lombardi"
+      role: "marketing manager"
+      pic_filename: "lara.jpg"
+    member_6:
+      name: "Giulia Tosato"
+      role: "boss in charge"
+      pic_filename: "giulia.jpg"
+    member_7:
+      name: "Matteo Beccati"
+      role: "GrUSP Board Member"
+      pic_filename: "matteo.jpg"
+    member_8:
+      name: "Cesare D'Amico"
+      role: "GrUSP Board Member"
+      pic_filename: "cesare.jpg"
+    member_9:
+      name: "Daniel Londero"
+      role: "GrUSP Board Member"
+      pic_filename: "daniel.jpg"
