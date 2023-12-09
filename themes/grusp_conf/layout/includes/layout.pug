@@ -70,7 +70,7 @@ html(lang=config.language)
           "@type": "Offer",
           "description": "Tickets",
           "availability": "https://schema.org/LimitedAvailability",
-          "url": "#{site.data.defaults.conference.buy_tickets_url}"
+          "url": "#{full_url_for("tickets")}"
         },
         {
           "@type": "Offer",
@@ -102,6 +102,7 @@ html(lang=config.language)
           ]
         }
       }
+    script(src='https://js.tito.io/v2' async)
 
   body
     #content-outer
