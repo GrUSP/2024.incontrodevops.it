@@ -31,6 +31,7 @@
   * [Sponsor](#sponsor)
     * [Pagina "sponsor"](#pagina-sponsor)
     * [Componente "sponsors"](#componente-sponsors)
+  * [Tickets](#tickets)
 <!--/ToC-->
 
 ## Installazione
@@ -404,7 +405,6 @@ Dopo la sezione "Additional config" dove come detto si seleziona il tema, segue 
 ```
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://rubyday-2020.eventbrite.com/"
 ```
 
 Label dei pulsanti *Buy tickets*, tranne quello presente nella *hero section* della home page (vedi sotto); URL del sito per l'acquisto dei biglietti
@@ -1780,3 +1780,12 @@ community_partners:
 ```
 
 Valgono le stesse regole, tranne che i loghi vanno messi in `/source/img/community/`.
+
+### tickets
+
+I dati si trovano in `/source/_data/page_tickets.yml`. Va riportato il nome dell'evento come definito tu Tito.
+
+```
+tito:
+  event: grusp/incontrodevops-2024
+```
