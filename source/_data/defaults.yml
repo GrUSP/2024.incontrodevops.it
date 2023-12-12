@@ -13,7 +13,6 @@ conference:
 
   # menu and general params
   menu_buy_tickets_label: "Partecipa"
-  buy_tickets_url: "https://ti.to/grusp/incontrodevops-2024"
   # additional info for microdata / schema.org
   md_city: "Bologna"
   md_province: "BO"
@@ -198,3 +197,6 @@ conference:
   # Google Tag Manager
   google:
     tag_manager_id: "GTM-NDSZPQ8"
+  # Tito tickets
+  tito:
+    event: grusp/incontrodevops-2024
