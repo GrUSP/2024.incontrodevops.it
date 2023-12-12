@@ -197,3 +197,6 @@ conference:
   # Google Tag Manager
   google:
     tag_manager_id: "GTM-NDSZPQ8"
+  # Tito tickets
+  tito:
+    event: grusp/incontrodevops-2024

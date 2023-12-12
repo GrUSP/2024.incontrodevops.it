@@ -783,6 +783,16 @@ L'URL del link "privacy policy" in fondo al footer vioene composta con `privacy_
 
 `tag_manager_id` viene preso dal dashboard di Google (cfr. https://gist.github.com/mbeccati/1bd9e562905a90e14d7d88ed3dcea34c)
 
+### tickets
+
+```
+  # Tito tickets
+  tito:
+    event: grusp/incontrodevops-2024
+```
+
+Va riportato il nome dell'evento come definito su Tito.
+
 ### welcome
 
 I dati si trovano in `/source/_data/page_welcome.yml`.
@@ -1780,12 +1790,3 @@ community_partners:
 ```
 
 Valgono le stesse regole, tranne che i loghi vanno messi in `/source/img/community/`.
-
-### tickets
-
-I dati si trovano in `/source/_data/page_tickets.yml`. Va riportato il nome dell'evento come definito tu Tito.
-
-```
-tito:
-  event: grusp/incontrodevops-2024
-```
