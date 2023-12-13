@@ -28,11 +28,11 @@ gold:
 #    name: "Daruma"
 #    logo_filename: "daruma.svg"
 #    site_url: "http://www.darumahq.com/"
-# bronze:
-#  sponsor2:
-#    name: "stickermule"
-#    logo_filename: "stickermule.svg"
-#    site_url: "https://mule.to/p2gc"
+bronze:
+  sponsor1:
+    name: "Stickermule"
+    logo_filename: "stickermule.svg"
+    site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
 # diversity:
 #   sponsor1:
 #     name: "S"
