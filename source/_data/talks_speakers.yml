@@ -1,32 +1,281 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
-  is_mc: false
+
+speaker_1: &alessandrabilardi
+  speaker_in_speaker_lists: true
+  speaker_name: Alessandra Bilardi
+  speaker_pic_filename: alessandra-bilardi.png
+  speaker_role: Data & Automation Specialist | AWS certified | PyData & Coderdojo mentor
+  speaker_bio: "I'm a Cloud Engineer with focus on data. In the past, I
+    worked in an e-commerce as developer but now I came back to my (academic)
+    origins: data and ML solutions, from IoT, data design, data analysis and
+    prediction, to data visualizations. I love playing and sharing: I’m AWS &
+    PyData evangelist and Coderdojo mentor."
+  speaker_twitter: https://twitter.com/abilardi
+  speaker_github: https://github.com/bilardi
+  speaker_linkedin: https://www.linkedin.com/in/bilardi/
+speaker_2: &ericdschabell
+  speaker_in_speaker_lists: true
+  speaker_name: Eric D. Schabell
+  speaker_pic_filename: ericd-schabell.png
+  speaker_role: Director Evangelism @ Chronoshpere
+  speaker_bio: Eric is Chronosphere's Director Evangelism. He's renowned in the
+    development community as a speaker, lecturer, author and baseball expert.
+    His current role allows him to help the world understand the challenges they
+    are facing with cloud native observability. He brings a unique perspective
+    to the stage with a professional life dedicated to sharing his deep
+    expertise of open source technologies, organizations, and is a CNCF
+    Ambassador. Follow on https://www.schabell.org.
+  speaker_twitter: https://twitter.com/ericschabell
+  speaker_github: https://github.com/eschabell
+  speaker_linkedin: https://www.linkedin.com/in/ericschabell/
+speaker_3: &fabioalessandrolocati
+  speaker_in_speaker_lists: true
+  speaker_name: Fabio Alessandro Locati
+  speaker_pic_filename: fabio-alessandro-locati.png
+  speaker_role: EMEA Associate Principal Solutions Architect @ Red Hat
+  speaker_bio: Fabio Alessandro Locati - commonly known as Fale - is an
+    EMEA Associate Principal Solutions Architect at Red Hat, public speaker,
+    author, and Open Source contributor. His primary areas of expertise are
+    Linux, automation, security, and cloud technologies. Fale has more than 15
+    years of working experience in IT, with many of them spent consulting for
+    many companies, including dozens of Fortune 500 companies. He is the author
+    of the books Practical Ansible 2, Learning Anisble 2, Learning Ansible 2.7,
+    and OpenStack Cloud Security. In the spare time he helps in the Kubernetes,
+    Fedora Project, Ansible, Wikimedia, Open Street Map communities as well as
+    in many smaller projects on GitHub and similar platforms.
+  speaker_twitter: https://twitter.com/falocati
+  speaker_github: https://github.com/Fale
+  speaker_linkedin: https://www.linkedin.com/in/fale
+speaker_4: &fawazghali
+  speaker_in_speaker_lists: true
+  speaker_name: Fawaz Ghali
+  speaker_pic_filename: fawaz-ghali.png
+  speaker_role: Principal Data Science Architect and Head of Developer Relations @ Hazelcast
+  speaker_bio: Fawaz Ghali is Principal Data Science Architect and the Head of
+    Developer Relations at Hazelcast with +22 years of experience in DevRel,
+    cloud, enterprise software development and deployment, ML/AI and real-time
+    intelligent applications, management and leadership. He holds a PhD in
+    Computer Science and has worked in the private sector as well as in academia
+    and research. He has published +45 scientific peer-reviewed papers in the
+    fields of ML/AI, data science and cloud computing on Google Scholar. Fawaz
+    is a renowned expert with +200 talks and presentations at global events and
+    conferences.
+  speaker_twitter: https://twitter.com/FawazGhali
+  speaker_github: ""
+  speaker_linkedin: https://www.linkedin.com/in/fawazghali/
+speaker_5: &federicocampoli
+  speaker_in_speaker_lists: true
+  speaker_name: Federico Campoli
+  speaker_pic_filename: federico-campoli.png
+  speaker_role: Freelance PostgreSQL consultant
+  speaker_bio: "Federico is a freelance consultant with long experience on
+    PostgreSQL. He started his career as Oracle DBA in 2004 and fell in love
+    with PostgreSQL in 2007. \r Previously he worked as database engineer for
+    Transferwise. \r After several years spent in the UK he is now back in
+    Italy. \r He’s an amateur jazz guitarist."
+  speaker_twitter: ""
+  speaker_github: ""
+  speaker_linkedin: https://www.linkedin.com/in/federicocampoli/
+speaker_6: &francescacarta
+  speaker_in_speaker_lists: true
+  speaker_name: Francesca Carta
+  speaker_pic_filename: francesca-carta.png
+  speaker_role: Delivery Manager @ Mia-Platform
+  speaker_bio: Francesca Carta is Delivery Manager at Mia-Platform and is
+    responsible for simplifying product use and adoption. With a background in
+    philosophy, she brings a unique perspective to technology. For the past six
+    years she has been responsible for managing the development of an Internal
+    Developer Platform for developers in Cloud Native. Francesca is dedicated to
+    making technology accessible to everyone. Through critical thinking and a
+    drive for innovation, she aims to make a positive impact.
+  speaker_twitter: ""
+  speaker_github: ""
+  speaker_linkedin: https://www.linkedin.com/in/francesca-carta-a403594b/
+speaker_7: &francescolumpp
+  speaker_in_speaker_lists: true
+  speaker_name: Francesco Lumpp
+  speaker_pic_filename: francesco-lumpp.png
+  speaker_role: PhD @ University of Verona
+  speaker_bio: Francesco Lumpp received both his bachelors’ Degrees at the
+    University of Verona, in Computer Science and Engineering respectively. He
+    is currently working towards the Ph.D. degree in computer science with the
+    Department of Engineering for Innovation Medicine, University of Verona. His
+    research activity focuses on development and optimization of software for
+    edge-cloud computing. He also working on FinOps methodologies integrated
+    into Kubernetes for cost- and performance-related optimizations.
+  speaker_twitter: ""
+  speaker_github: ""
+  speaker_linkedin: ""
+speaker_8: &giuseppearancio
+  speaker_in_speaker_lists: true
+  speaker_name: Giuseppe Arancio
+  speaker_pic_filename: giuseppe-arancio.png
+  speaker_role: "Senior Platform Engineer @ Sparkfabrik "
+  speaker_bio: "Passionate about computer science from an early age, I still
+    remember the 'love at first sight' feeling with the Internet as soon as I
+    saw the Yahoo homepage. After graduating in telecommunications engineering,
+    I begin my professional adventure working on a research project on home
+    automation, based on Arduino programming, powerline technology and different
+    protocols. I've been a Test Engineer till 2017 when I fell in love again
+    with kubernetes and the cncf! "
+  speaker_twitter: ""
+  speaker_github: ""
+  speaker_linkedin: https://www.linkedin.com/in/giuseppe-arancio/
+speaker_9: &jacoponardiello
+  speaker_in_speaker_lists: true
+  speaker_name: Jacopo Nardiello
+  speaker_pic_filename: jacopo-nardiello.png
+  speaker_role: "Founder @ SIGHUP | CNCF Ambassador | LF Europe Advisory Board"
+  speaker_bio: "Jacopo Nardiello è un DevOps Engineer appassionato di automazione delle infrastrutture, orchestrazione e sistemi distribuiti. Focalizzato sull’architettura e l’ingegneria di sistemi distribuiti basati su Containers e Kubernetes, nel 2016 ha fondato SIGHUP. Jacopo è anche CNCF Ambassador, Core Organizer della community milanese Kubernetes e Cloud-Native Milano e membro dell'Advisory Board della Linux Foundation Europe."
+  speaker_twitter: "https://twitter.com/jnardiello"
+  speaker_github: "https://github.com/jnardiello"
+  speaker_linkedin: "https://www.linkedin.com/in/jnardiello/"
+speaker_10: &jenniferpetoff
+  speaker_in_speaker_lists: true
+  speaker_name: Jennifer Petoff
+  speaker_pic_filename: jennifer-petoff.png
+  speaker_role: Director, Google Cloud Platform and Technical Infrastructure Education
+  speaker_bio: "Jennifer Petoff (she/her) is director of Google Cloud Platform
+    (GCP) & Technical Infrastructure (TI) Education and is based in Lisbon,
+    Portugal. She leads training programs for Google's GCP and TI Engineering
+    teams. Jennifer is one of the co-editors of the best-selling book, Site
+    Reliability Engineering: How Google Runs Production Systems; lead author of
+    Training Site Reliability Engineers: What Your Organization Needs to Create
+    a Learning Program; and is a regular speaker at DevOps and Site Reliability
+    Engineering conferences around the world. Jennifer joined Google 16 years
+    ago after spending eight years in the chemical industry. She holds a PhD in
+    Chemistry from Stanford University and a BS in Chemistry and a BA in
+    Psychology from the University of Rochester in the United States."
+  speaker_twitter: http://www.twitter.com/jennski
+  speaker_github: ""
+  speaker_linkedin: https://www.linkedin.com/in/jpetoff/
+speaker_11: &jennynilsson
+  speaker_in_speaker_lists: true
+  speaker_name: Jenny Nilsson
+  speaker_pic_filename: jenny-nilsson.png
+  speaker_role: DevOps Engineer @ Digitalist Cloud
+  speaker_bio: Jenny is a PhD in Atmospheric Sciences and started off working as
+    a scientific programmer and researcher, and later as an advanced
+    technologist in industrial research and development projects. The last
+    couple of years she's been working as a DevOps Engineer for Digitalist
+    Cloud, focusing mostly on migrating on-prem applications to cloud-based
+    cluster environments.
+  speaker_twitter: ""
+  speaker_github: ""
+  speaker_linkedin: https://www.linkedin.com/in/jenny-nilsson-162a3314
+speaker_12: &marianocalandra
+  speaker_in_speaker_lists: true
+  speaker_name: Mariano Calandra
+  speaker_pic_filename: mariano-calandra.png
+  speaker_role: Microservices | Serverless | AWS Authorized Instructor
+  speaker_bio: With a strong developer’s background, Mariano daily helps
+    companies that wish to modernize their applications embracing microservices
+    and cloud native architectures. He’s an AWS Authorized Instructor and a
+    co-organizer of ServerlessDays Rome. In his spare time he enjoys good music,
+    reading, food and staying in front of the sea.
+  speaker_twitter: https://twitter.com/MarianoCalandra
+  speaker_github: ""
+  speaker_linkedin: https://www.linkedin.com/in/marianocalandra/
+speaker_13: &matteodeponti
+  speaker_in_speaker_lists: true
+  speaker_name: Matteo De Ponti
+  speaker_pic_filename: matteo-deponti.png
+  speaker_role: Domain SRE Chapter Lead @ Prima Assicurazioni
+  speaker_bio: Cloud Engineer con un passato da Software Developer ed un
+    presente da Chapter Lead in Prima Assicurazioni. Attualmente focalizzato
+    sulla divulgazione della metodologia DevOps in azienda e sul coordinamento
+    del proprio team di SREs. Nonostante questo, ancora fortemente attivo nel
+    battere i tasti della tastiera per scrivere un po' di Infrastructure-as-Code
+    o qualche Helm Chart.
+  speaker_twitter: ""
+  speaker_github: https://github.com/depontimatteo
+  speaker_linkedin: https://www.linkedin.com/in/matteo-de-ponti
+speaker_14: &nicolacremaschini
+  speaker_in_speaker_lists: true
+  speaker_name: Nicola Cremaschini
+  speaker_pic_filename: nicola-cremaschini.png
+  speaker_role: Principal Technical Architect @ Sky Italia
+  speaker_bio: I've been a developer for almost 20 years, with 2 years as
+    devOps engineer, and now I'm the Principal Technical Architect of Sky Italia
+    Digital Tribe since 3 years. I'm passionate about cloud computing, with
+    focus on serverless, and Conway's law is my north star for solutions design.
+  speaker_twitter: ""
+  speaker_github: ""
+  speaker_linkedin: https://www.linkedin.com/in/nicola-cremaschini/
+speaker_15: &paololatella
+  speaker_in_speaker_lists: true
+  speaker_name: Paolo Latella
+  speaker_pic_filename: paolo-latella.png
+  speaker_role: Cloud Advisor @ Recube
+  speaker_bio: Cloud Advisor and Co-Founder of Recube a company that encourages
+    innovation and Cloud adoption starting from people. Cloud enthusiast with
+    than 10 years of experience on Amazon Web Services. I assist companies on
+    their innovation journey mixing IT strategy, Security and Cloud
+    technologies. I'm an Amazon Authorized Instructor since 2014 and assist AWS
+    on education of current and future generations of Cloud professionals. As an
+    AWS Hero, I love to spend time advocating and evangelizing others about AWS
+    services and Cloud in general. Prominent leader within the Italian AWS
+    community, I frequently participate as speakers at several IT conferences.
+  speaker_twitter: https://twitter.com/LatellaPaolo
+  speaker_github: ""
+  speaker_linkedin: https://www.linkedin.com/in/paololatella/
+speaker_16: &stevenborrelli
+  speaker_in_speaker_lists: true
+  speaker_name: Steven Borrelli
+  speaker_pic_filename: steven-borrelli.png
+  speaker_role: Principal Soutions Architect @ Upbound
+  speaker_bio: Steven is a Principal Solutions Architect for Upbound, where he
+    helps engineers build platforms on top of Crossplane.
+  speaker_twitter: ""
+  speaker_github: https://github.com/stevendborrelli
+  speaker_linkedin: https://www.linkedin.com/in/stevenborrelli/
+speaker_17: &tommasodoninelli
+  speaker_in_speaker_lists: true
+  speaker_name: Tommaso Doninelli
+  speaker_pic_filename: tommaso-doninelli.png
+  speaker_role: Co-founder @ HakunaCloud
+  speaker_bio: "Tommaso Doninelli is the co-founder of HakunaCloud, a managed
+    container-as-a-service platform. He worked as Software Engineer at Amazon
+    AWS, and as CTO at PTV Group - SISTeMA. He has lived in 5 different
+    countries and has sailed in 3 different seas. "
+  speaker_twitter: https://twitter.com/glicerina_
+  speaker_github: https://github.com/totomz/
+  speaker_linkedin: https://www.linkedin.com/in/tdoninelli/
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *alessandrabilardi
+  speaker_2: *ericdschabell
+  speaker_3: *fabioalessandrolocati
+  speaker_4: *fawazghali
+  speaker_5: *federicocampoli
+  speaker_6: *francescacarta
+  speaker_7: *francescolumpp
+  speaker_8: *giuseppearancio
+  speaker_9: *jacoponardiello
+  speaker_10: *jenniferpetoff
+  speaker_11: *jennynilsson
+  speaker_12: *marianocalandra
+  speaker_13: *matteodeponti
+  speaker_14: *nicolacremaschini
+  speaker_15: *paololatella
+  speaker_16: *stevenborrelli
+  speaker_17: *tommasodoninelli
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+  # track_2: &track_2
+  #   id: 2
+  #   title: "Track 2"
+  # track_3: &track_3
+  #   id: 3
+  #   title: "Track 3"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -60,23 +309,343 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
+
+      come-portare-in-produzione-un-sistema-di-ml-che-ora-gira-solo-nel-locale-del-nostro-data-scientist-1:
+        item_type: talk
         track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: Come portare in produzione un sistema di ML che ora gira solo nel locale
+          del nostro data scientist?
+        talk_description: È sempre un argomento delicato prendere il lavoro di un collega e proporre
+          un refactoring perché possa essere automatizzato. Ma una volta trovato il
+          sistema di gestione che si adatta meglio alle vostre esigenze, sarà un
+          gioco da ragazzi! AWS mette a disposizione alcune soluzioni fully managed
+          per un ciclo MLOps, altre possono essere una combinazione di servizi.
+          Tutto dipende dal ciclo di vita del modello, dalle figure coinvolte e
+          dall’effort che si ha a disposizione. Dopo una breve introduzione delle
+          figure coinvolte e delle soluzioni principali che potremmo adottare con i
+          servizi AWS, le metteremo a confronto in termini di effort, knowledge,
+          tempi d'implementazione e costi.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
         speakers:
-          speaker_1: *speaker
-      titolotalk1:
-        item_type: "talk"
+          speaker_1: *alessandrabilardi
+      3-pitfalls-everyone-should-avoid-with-cloud-data-2:
+        item_type: talk
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: 3 Pitfalls Everyone Should Avoid with Cloud Data
+        talk_description: "The daily hype is all around you. From cloud native, multicloud, to
+          hybrid cloud, this is the path to your digital future. The choices you
+          make as a developer does not preclude the daily work of enhancing your
+          customer's experience and agile delivery of your applications. With all
+          this delivery and infrastructure, there is a lot of data generated when
+          engaging with any cloud experience. Regulatory and compliance pressures
+          force us to store audit and observability data. Understanding the pitfalls
+          around the collection, storage, and maintenance of your cloud data can
+          mean the difference between bankruptcy and success with our cloud native
+          strategy. Let us take you on a journey, looking closely at the decisions
+          you are making as a DevOps team delivering and dealing with monitoring
+          applications. Join us for an hour of power, where real customer
+          experiences are used to highlight the three top lessons learned as their
+          DevOps teams transitioned their data needs into cloud native
+          environments.\r \r Key Takeaways: Attendees to this session will gain
+          insights into the data explosion that is part of the large scale cloud
+          native world. Real customer experiences are used to highlight the three
+          top lessons learned as their DevOps teams transitioned their data needs
+          into cloud native environments."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
         speakers:
-          speaker_1: *speaker
+          speaker_1: *ericdschabell
+      da-dove-arriva-il-codice-ansible-che-stai-eseguendo-3:
+        item_type: talk
+        track: *track_1
+        talk_title: Da dove arriva il codice Ansible che stai eseguendo?
+        talk_description: "Solitamente il codice Ansible viene eseguito con un alto livello di
+          accesso per assicurarsi che possa eseguire le azioni per cui è preposto.
+          Questo alto livello di accesso, però, crea un potenziale rischio di
+          sicurezza, dato che il codice potrebbe essere modificato da un attaccante,
+          permettendogli quindi di eseguire codice arbitrario.\r Per evitare che
+          questo possa succedere, si può utilizzare un processo di firma e verifica
+          crittografica per assicurare che solo il codice autorizzato possa essere
+          eseguito.\r In questa presentazione vedremo come si può integrare un
+          processo di firma e verifica crittografica in Ansible. Ci soffermeremo
+          anche su alcune decisioni e suggerimenti di implementazioni per assicurare
+          che il processo risultante soddisfi tutti i requisiti."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *fabioalessandrolocati
+      devops-real-time-anomaly-detection-with-machine-learning-4:
+        item_type: talk
+        track: *track_1
+        talk_title: DevOps Real-Time Anomaly Detection with Machine Learning
+        talk_description: "Logs and traces generated by applications are valuable sources of
+          information that can help detect issues and improve performance. However,
+          they are often treated separately from other data, even though they are no
+          different from the data an application works with. In this talk, we will
+          explore a different approach: treating logs and traces as part of a
+          scalable cloud storage repository that can be analyzed with the same
+          techniques used for big data. By keeping all the data together, we can
+          apply machine learning models to detect situations of interest and alert
+          us in real-time when unwanted behavior is occurring or brewing. This
+          approach enables intelligent monitoring that goes beyond simple
+          threshold-based alerts and can help identify complex issues that would
+          otherwise go unnoticed. We will discuss how to harness existing
+          technologies to implement this approach, providing attendees with
+          practical tips and insights that they can apply to their own projects.\r "
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *fawazghali
+      vindicating-zfs-with-postgresql:-unleashing-the-power-of-scalability-5:
+        item_type: talk
+        track: *track_1
+        talk_title: "Vindicating ZFS with PostgreSQL: Unleashing the Power of Scalability"
+        talk_description: "In the ever-evolving landscape of database systems, PostgreSQL stands as
+          a robust and highly capable RDBMS.  However, achieving optimal performance
+          at scale requires careful consideration of the underlying file
+          system.   This presentation will talk about ZOL (ZFS on Linux), a powerful
+          and advanced file system originally developed by Sun Microsystems. ZFS
+          point of strength are robust data storage management, data integrity, data
+          compression, snapshotting, and efficient storage allocation. However ZFS
+          performances are terrible if compared with the native file systems like
+          XFS or EXT4.  This presentation will help the attendees to have a better
+          understanding for harnessing the power of ZFS and run PostgreSQL at scale
+          levels not so different from XFS or EXT4. "
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *federicocampoli
+      platform-engineering-is-not-about-tech-6:
+        item_type: talk
+        track: *track_1
+        talk_title: Platform Engineering Is Not About Tech
+        talk_description: "What are we using for pipelines? Which infrastructure do we support? Is
+          service mesh enabled?'. These types of questions - revolving on tech
+          choices and implementation - currently occupy most of the conversations
+          around platform engineering. According to most evidence, though, these are
+          not the only things that make a cloud-native platform successful: cultural
+          change, communication and collaboration, reorganized processes, shared
+          vision and roadmap - among others - play a key role in determining the
+          success of platform transformation. If we don’t address change
+          comprehensively, the risk is that in a few years we’ll discover that
+          platforms are not bringing the results we expected. In this talk we’ll see
+          some key aspects that are often overlooked in implementing a platform and
+          how it’s possible to address them along the way. We’ll also share some of
+          the pitfalls and lessons we learned in our experience, supporting large
+          and small organizations in building their cloud-native platforms."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *francescacarta
+      transforming-cloud-cost-management:-a-deep-dive-into-finops-integration-with-kubernetes-for-enhanced-7:
+        item_type: talk
+        track: *track_1
+        talk_title: "Transforming Cloud Cost Management: A Deep Dive into FinOps Integration
+          with Kubernetes for Enhanced"
+        talk_description: Explore the convergence of cost management and development with FinOps in
+          the context of Kubernetes. This talk presents an integrated solution to
+          effortlessly collect costs from service providers' APIs, convert them to
+          the FinOps Foundation FOCUS specification, and store them in a central
+          data lake. Leveraging advanced algorithms, including machine learning, the
+          collected data is analyzed to uncover opportunities for cost and quality
+          of service optimization. This solution includes a closed-loop feedback
+          system where insights gleaned from the analysis are fed back into
+          Kubernetes to enhance integrated auto-scaling features. This talk will
+          unravel the complexities of FinOps within Kubernetes, gaining practical
+          insights into transforming cloud cost management and bolstering DevOps
+          efficiency.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *francescolumpp
+      gitlab-and-kubernetes:-a-deep-dive-into-the-agent-the-cluster-access-and-the-security-features-8:
+        item_type: talk
+        track: *track_1
+        talk_title: "GitLab and Kubernetes: A Deep Dive into the Agent, the Cluster Access and
+          the Security Features"
+        talk_description: "Embark on a journey through the core facets of GitLab and Kubernetes
+          integration.\r Dive deep into the pivotal role of GitLab's Agent,
+          uncovering its seamless orchestration between GitLab and Kubernetes.
+          Explore the intricacies of Cluster Access, understanding how GitLab
+          ensures secure and controlled connections to your Kubernetes clusters.\r
+          Security takes center stage as we unveil the robust features ingrained in
+          the integration. From access controls to vulnerability scanning, discover
+          how GitLab and Kubernetes collaboratively fortify your DevOps workflows,
+          ensuring airtight security throughout the development lifecycle.\r Perfect
+          for both DevOps veterans and beginners, this talk promises practical
+          insights, empowering you to optimize development and deployment processes
+          while upholding the highest standards of security. Elevate your
+          understanding of GitLab and Kubernetes synergy for enhanced efficiency and
+          reliability in your projects."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *giuseppearancio
+      "-9":
+        item_type: talk
+        track: *track_1
+        talk_title: "TBA"
+        talk_description: ""
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *jacoponardiello
+      site-reliability-engineering-to-build-high-performance-software-and-teams-10:
+        item_type: talk
+        track: *track_1
+        talk_title: Site Reliability Engineering to build high performance software and teams
+        talk_description: Site Reliability Engineering (SRE) is a discipline founded at Google that
+          is now widely practiced across the Tech industry. SRE represents a set of
+          principles and practices that applies aspects of software engineering to
+          IT infrastructure and operations. In this talk, we will discuss the key
+          principles and practices of SRE, and how they can be used to build high
+          performance software and teams. We’ll explore insights from the State of
+          DevOps Report and how SRE can help foster the type of generative
+          organizational culture that is a hallmark of high performing
+          organizations.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *jenniferpetoff
+      case-study:-how-we-brought-order-to-our-matomo-saas-with-devops-11:
+        item_type: talk
+        track: *track_1
+        talk_title: "Case study: How we brought order to our Matomo Saas with DevOps"
+        talk_description: The Digitalist Cloud motto is 'For the public good', with this general
+          scope in mind we have set up a SaaS service offering GDPR safe web
+          analysis tools based on the Opensource project Matomo. Many of our clients
+          are from the Swedish public administration, but awareness and interest in
+          ethical web analysis is constantly increasing in all business sectors. In
+          this presentation I want to show how applying Rancher to our different
+          Matomo clusters have proved fruitful for our organisation, in terms of
+          getting an immediate and clear overview of crucial operational info on the
+          infrastructure and application status, as well as how applying Neuvector
+          has facilitated the monitoring and management of security risks in the
+          system. We'll dive into our pipeline architecture and show how our
+          continuous updates are deployed seemlessly with ArgoCD. Finally I'll demo
+          our recently released and much requested add-on tool, RebelMetrics, an
+          analysis dashboard for advanced visualization and exploration of the data
+          and smoother reporting for the clients.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *jennynilsson
+      beyond-the-unit:-a-holistic-approach-for-testing-serverless-architectures-12:
+        item_type: talk
+        track: *track_1
+        talk_title: "Beyond the unit: a holistic approach for testing serverless architectures"
+        talk_description: "One of the peculiar aspects of microservices architecture is the
+          possibility of designing a system as a set of independent but
+          collaborative components. At the root of this collaboration there
+          are  well-defined contracts among all the microservices: breaking even a
+          single contract might compromise the health of the entire system.\r With
+          AWS Lambda, we have the ability to simply create an ever-increasing number
+          of microservices and, therefore, it becomes crucial to find a way to catch
+          errors in advance whenever one of these contracts has been broken."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *marianocalandra
+      road-to-domain-driven:-vita-spericolata-di-un-cloud-engineer-13:
+        item_type: talk
+        track: *track_1
+        talk_title: "Road to Domain Driven: vita spericolata di un Cloud Engineer"
+        talk_description: "La trasformazione di un'azienda da country-based a global è un processo
+          complesso e pieno di ostacoli. La ristrutturazione di processi,
+          infrastrutture e ways-of-working ha impatti significativi sia dal punto di
+          vista tecnico, sia da quello umano.\r In questo talk vedremo come Prima
+          Assicurazioni sta affrontando questo tipo di cambiamento utilizzando un
+          approccio Domain Driven, con un focus dettagliato su come questo ha
+          impatto sui team di Cloud Engineering. Scopriremo cosa è stato necessario
+          affrontare per supportare questa trasformazione sia da un punto di vista
+          tecnico (a livello di AWS Organization, di cluster Kubernetes, di IAM),
+          sia da un punto di vista organizzativo, analizzando come i teams di Cloud
+          Engineering si sono riorganizzati per sostenere questo sforzo con un
+          numero limitato di risorse."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *matteodeponti
+      x-factor-voting-platform-under-the-hood-14:
+        item_type: talk
+        track: *track_1
+        talk_title: X-Factor Voting platform under the hood
+        talk_description: "How to handle huge load spikes during a live event in a serverless
+          fashion: a technical deep dive into Sky Italia's voting platform
+          architecture."
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *nicolacremaschini
+      compliance-as-code:-shift-left-and-shift-right-approach-in-a-cloud-world-15:
+        item_type: talk
+        track: *track_1
+        talk_title: "Compliance As Code: shift-left and shift-right approach in a Cloud world"
+        talk_description: Maintaining compliance in a Cloud world requires a new approach that
+          maximizes the balance between agility and safety. Just like we use
+          infrastructure-as-code in infrastructure automation and approach of CI/CD
+          in application lifecycle management, at the same time our DevSecOps teams
+          should adopt compliance-as-code, especially in a cloud world. We can
+          introduce compliance-as-code on the left side of the DevOps lifecycle
+          and/or on the right side. Working on the left side we can detect issues
+          very early in the process, but our tests are limited in scope, more
+          related to a specific workload. On the right side, we can detect and
+          remediate issues that would be difficult to anticipate during the building
+          phase, we can assess the resources against requirements defined at a more
+          high level, but the improvement requires more effort. On the left side, we
+          can leverage general-purpose tools such as OPA - Open Policy Agent - an
+          open-source engine incubated in the CNCF. On the right side, it's better
+          to leverage services provided by the Cloud provider as AWS config
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *paololatella
+      introduction-to-crossplane-16:
+        item_type: talk
+        track: *track_1
+        talk_title: Introduction to Crossplane
+        talk_description: Crossplane is an open-source project that allows the management of any
+          cloud resource via the Kubernetes API. It's become a key component in the
+          field of platform engineering. In this talk we'll provide an overview of
+          Crossplane, spanning Managed Resources, Providers, Composition Function
+          pipelines, Authentication, and integration with systems like ArgoCD and
+          Flux. During this overview we'll demonstrate code how to define and
+          validate internal new platform APIs, assembling infrastructure components,
+          handling secrets, and creating functions in the language of your choice.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *stevenborrelli
+      taming-the-lifecycle-of-100+-kubernetes-clusters-with-k8s-plumber-an-infocert-story-17:
+        item_type: talk
+        track: *track_1
+        talk_title: Taming the Lifecycle of 100+ Kubernetes Clusters with K8s Plumber - An
+          InfoCert Story
+        talk_description: K8s Plumber è lo strumento basato su Terraform+Git che controlla il
+          lifecycle di ~100 cluster Kubernetes in InfoCert, dal provisioning 'chiavi
+          in mano', alla gestione degli upgrade dei servizi, delle configurazioni e
+          della control-plane.  Racconteremo come in InfoCert siamo arrivati al
+          100esimo cluster e della loro operatività, che ci ha portati ad
+          automatizzare tutto con Plumber. Alla fine, 'basta un click'.
+        talk_video_url: ""
+        start_datetime: ""
+        end_datetime: ""
+        speakers:
+          speaker_1: *tommasodoninelli
