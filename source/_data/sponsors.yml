@@ -1,4 +1,4 @@
-sponsors_block_title: ""
+sponsors_block_title: "Grazie al supporto di"
 # main:
 #  sponsor1:
 #    name: ""
@@ -23,11 +23,11 @@ gold:
    name: "workwave"
    logo_filename: "workwave.svg"
    site_url: "https://www.workwave.com/"
-# silver:
-#  sponsor0:
-#    name: "Daruma"
-#    logo_filename: "daruma.svg"
-#    site_url: "http://www.darumahq.com/"
+silver:
+ sponsor1:
+   name: "Seeweb"
+   logo_filename: "seeweb.png"
+   site_url: "https://www.seeweb.it/"
 bronze:
   sponsor1:
     name: "Stickermule"
