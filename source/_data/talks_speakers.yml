@@ -33,24 +33,24 @@ speaker_2: &ericdschabell
   speaker_twitter: https://twitter.com/ericschabell
   speaker_github: https://github.com/eschabell
   speaker_linkedin: https://www.linkedin.com/in/ericschabell/
-speaker_3: &fabioalessandrolocati
-  speaker_in_speaker_lists: true
-  speaker_name: Fabio Alessandro Locati
-  speaker_pic_filename: fabio-alessandro-locati.png
-  speaker_role: EMEA Associate Principal Solutions Architect @ Red Hat
-  speaker_bio: Fabio Alessandro Locati - commonly known as Fale - is an
-    EMEA Associate Principal Solutions Architect at Red Hat, public speaker,
-    author, and Open Source contributor. His primary areas of expertise are
-    Linux, automation, security, and cloud technologies. Fale has more than 15
-    years of working experience in IT, with many of them spent consulting for
-    many companies, including dozens of Fortune 500 companies. He is the author
-    of the books Practical Ansible 2, Learning Anisble 2, Learning Ansible 2.7,
-    and OpenStack Cloud Security. In the spare time he helps in the Kubernetes,
-    Fedora Project, Ansible, Wikimedia, Open Street Map communities as well as
-    in many smaller projects on GitHub and similar platforms.
-  speaker_twitter: https://twitter.com/falocati
-  speaker_github: https://github.com/Fale
-  speaker_linkedin: https://www.linkedin.com/in/fale
+# speaker_3: &fabioalessandrolocati
+#   speaker_in_speaker_lists: true
+#   speaker_name: Fabio Alessandro Locati
+#   speaker_pic_filename: fabio-alessandro-locati.png
+#   speaker_role: EMEA Associate Principal Solutions Architect @ Red Hat
+#   speaker_bio: Fabio Alessandro Locati - commonly known as Fale - is an
+#     EMEA Associate Principal Solutions Architect at Red Hat, public speaker,
+#     author, and Open Source contributor. His primary areas of expertise are
+#     Linux, automation, security, and cloud technologies. Fale has more than 15
+#     years of working experience in IT, with many of them spent consulting for
+#     many companies, including dozens of Fortune 500 companies. He is the author
+#     of the books Practical Ansible 2, Learning Anisble 2, Learning Ansible 2.7,
+#     and OpenStack Cloud Security. In the spare time he helps in the Kubernetes,
+#     Fedora Project, Ansible, Wikimedia, Open Street Map communities as well as
+#     in many smaller projects on GitHub and similar platforms.
+#   speaker_twitter: https://twitter.com/falocati
+#   speaker_github: https://github.com/Fale
+#   speaker_linkedin: https://www.linkedin.com/in/fale
 speaker_4: &fawazghali
   speaker_in_speaker_lists: true
   speaker_name: Fawaz Ghali
@@ -96,21 +96,21 @@ speaker_6: &francescacarta
   speaker_twitter: ""
   speaker_github: ""
   speaker_linkedin: https://www.linkedin.com/in/francesca-carta-a403594b/
-speaker_7: &francescolumpp
-  speaker_in_speaker_lists: true
-  speaker_name: Francesco Lumpp
-  speaker_pic_filename: francesco-lumpp.png
-  speaker_role: PhD @ University of Verona
-  speaker_bio: Francesco Lumpp received both his bachelors’ Degrees at the
-    University of Verona, in Computer Science and Engineering respectively. He
-    is currently working towards the Ph.D. degree in computer science with the
-    Department of Engineering for Innovation Medicine, University of Verona. His
-    research activity focuses on development and optimization of software for
-    edge-cloud computing. He also working on FinOps methodologies integrated
-    into Kubernetes for cost- and performance-related optimizations.
-  speaker_twitter: ""
-  speaker_github: ""
-  speaker_linkedin: ""
+# speaker_7: &francescolumpp
+#   speaker_in_speaker_lists: true
+#   speaker_name: Francesco Lumpp
+#   speaker_pic_filename: francesco-lumpp.png
+#   speaker_role: PhD @ University of Verona
+#   speaker_bio: Francesco Lumpp received both his bachelors’ Degrees at the
+#     University of Verona, in Computer Science and Engineering respectively. He
+#     is currently working towards the Ph.D. degree in computer science with the
+#     Department of Engineering for Innovation Medicine, University of Verona. His
+#     research activity focuses on development and optimization of software for
+#     edge-cloud computing. He also working on FinOps methodologies integrated
+#     into Kubernetes for cost- and performance-related optimizations.
+#   speaker_twitter: ""
+#   speaker_github: ""
+#   speaker_linkedin: ""
 speaker_8: &giuseppearancio
   speaker_in_speaker_lists: true
   speaker_name: Giuseppe Arancio
@@ -126,15 +126,15 @@ speaker_8: &giuseppearancio
   speaker_twitter: ""
   speaker_github: ""
   speaker_linkedin: https://www.linkedin.com/in/giuseppe-arancio/
-speaker_9: &jacoponardiello
-  speaker_in_speaker_lists: true
-  speaker_name: Jacopo Nardiello
-  speaker_pic_filename: jacopo-nardiello.png
-  speaker_role: "Founder @ SIGHUP | CNCF Ambassador | LF Europe Advisory Board"
-  speaker_bio: "Jacopo Nardiello è un DevOps Engineer appassionato di automazione delle infrastrutture, orchestrazione e sistemi distribuiti. Focalizzato sull’architettura e l’ingegneria di sistemi distribuiti basati su Containers e Kubernetes, nel 2016 ha fondato SIGHUP. Jacopo è anche CNCF Ambassador, Core Organizer della community milanese Kubernetes e Cloud-Native Milano e membro dell'Advisory Board della Linux Foundation Europe."
-  speaker_twitter: "https://twitter.com/jnardiello"
-  speaker_github: "https://github.com/jnardiello"
-  speaker_linkedin: "https://www.linkedin.com/in/jnardiello/"
+# speaker_9: &jacoponardiello
+#   speaker_in_speaker_lists: true
+#   speaker_name: Jacopo Nardiello
+#   speaker_pic_filename: jacopo-nardiello.png
+#   speaker_role: "Founder @ SIGHUP | CNCF Ambassador | LF Europe Advisory Board"
+#   speaker_bio: "Jacopo Nardiello è un DevOps Engineer appassionato di automazione delle infrastrutture, orchestrazione e sistemi distribuiti. Focalizzato sull’architettura e l’ingegneria di sistemi distribuiti basati su Containers e Kubernetes, nel 2016 ha fondato SIGHUP. Jacopo è anche CNCF Ambassador, Core Organizer della community milanese Kubernetes e Cloud-Native Milano e membro dell'Advisory Board della Linux Foundation Europe."
+#   speaker_twitter: "https://twitter.com/jnardiello"
+#   speaker_github: "https://github.com/jnardiello"
+#   speaker_linkedin: "https://www.linkedin.com/in/jnardiello/"
 speaker_10: &jenniferpetoff
   speaker_in_speaker_lists: true
   speaker_name: Jennifer Petoff
@@ -195,18 +195,18 @@ speaker_13: &matteodeponti
   speaker_twitter: ""
   speaker_github: https://github.com/depontimatteo
   speaker_linkedin: https://www.linkedin.com/in/matteo-de-ponti
-speaker_14: &nicolacremaschini
-  speaker_in_speaker_lists: true
-  speaker_name: Nicola Cremaschini
-  speaker_pic_filename: nicola-cremaschini.png
-  speaker_role: Principal Technical Architect @ Sky Italia
-  speaker_bio: I've been a developer for almost 20 years, with 2 years as
-    devOps engineer, and now I'm the Principal Technical Architect of Sky Italia
-    Digital Tribe since 3 years. I'm passionate about cloud computing, with
-    focus on serverless, and Conway's law is my north star for solutions design.
-  speaker_twitter: ""
-  speaker_github: ""
-  speaker_linkedin: https://www.linkedin.com/in/nicola-cremaschini/
+# speaker_14: &nicolacremaschini
+#   speaker_in_speaker_lists: true
+#   speaker_name: Nicola Cremaschini
+#   speaker_pic_filename: nicola-cremaschini.png
+#   speaker_role: Principal Technical Architect @ Sky Italia
+#   speaker_bio: I've been a developer for almost 20 years, with 2 years as
+#     devOps engineer, and now I'm the Principal Technical Architect of Sky Italia
+#     Digital Tribe since 3 years. I'm passionate about cloud computing, with
+#     focus on serverless, and Conway's law is my north star for solutions design.
+#   speaker_twitter: ""
+#   speaker_github: ""
+#   speaker_linkedin: https://www.linkedin.com/in/nicola-cremaschini/
 speaker_15: &paololatella
   speaker_in_speaker_lists: true
   speaker_name: Paolo Latella
@@ -234,37 +234,37 @@ speaker_16: &stevenborrelli
   speaker_twitter: ""
   speaker_github: https://github.com/stevendborrelli
   speaker_linkedin: https://www.linkedin.com/in/stevenborrelli/
-speaker_17: &tommasodoninelli
-  speaker_in_speaker_lists: true
-  speaker_name: Tommaso Doninelli
-  speaker_pic_filename: tommaso-doninelli.png
-  speaker_role: Co-founder @ HakunaCloud
-  speaker_bio: "Tommaso Doninelli is the co-founder of HakunaCloud, a managed
-    container-as-a-service platform. He worked as Software Engineer at Amazon
-    AWS, and as CTO at PTV Group - SISTeMA. He has lived in 5 different
-    countries and has sailed in 3 different seas. "
-  speaker_twitter: https://twitter.com/glicerina_
-  speaker_github: https://github.com/totomz/
-  speaker_linkedin: https://www.linkedin.com/in/tdoninelli/
+# speaker_17: &tommasodoninelli
+#   speaker_in_speaker_lists: true
+#   speaker_name: Tommaso Doninelli
+#   speaker_pic_filename: tommaso-doninelli.png
+#   speaker_role: Co-founder @ HakunaCloud
+#   speaker_bio: "Tommaso Doninelli is the co-founder of HakunaCloud, a managed
+#     container-as-a-service platform. He worked as Software Engineer at Amazon
+#     AWS, and as CTO at PTV Group - SISTeMA. He has lived in 5 different
+#     countries and has sailed in 3 different seas. "
+#   speaker_twitter: https://twitter.com/glicerina_
+#   speaker_github: https://github.com/totomz/
+#   speaker_linkedin: https://www.linkedin.com/in/tdoninelli/
 
 speakers:
   speaker_1: *alessandrabilardi
   speaker_2: *ericdschabell
-  speaker_3: *fabioalessandrolocati
+  # speaker_3: *fabioalessandrolocati
   speaker_4: *fawazghali
   speaker_5: *federicocampoli
   speaker_6: *francescacarta
-  speaker_7: *francescolumpp
+  # speaker_7: *francescolumpp
   speaker_8: *giuseppearancio
-  speaker_9: *jacoponardiello
+  # speaker_9: *jacoponardiello
   speaker_10: *jenniferpetoff
   speaker_11: *jennynilsson
   speaker_12: *marianocalandra
   speaker_13: *matteodeponti
-  speaker_14: *nicolacremaschini
+  # speaker_14: *nicolacremaschini
   speaker_15: *paololatella
   speaker_16: *stevenborrelli
-  speaker_17: *tommasodoninelli
+  # speaker_17: *tommasodoninelli
 
 tracks:
   track_1: &track_1
@@ -358,26 +358,26 @@ days:
         end_datetime: ""
         speakers:
           speaker_1: *ericdschabell
-      da-dove-arriva-il-codice-ansible-che-stai-eseguendo-3:
-        item_type: talk
-        track: *track_1
-        talk_title: Da dove arriva il codice Ansible che stai eseguendo?
-        talk_description: "Solitamente il codice Ansible viene eseguito con un alto livello di
-          accesso per assicurarsi che possa eseguire le azioni per cui è preposto.
-          Questo alto livello di accesso, però, crea un potenziale rischio di
-          sicurezza, dato che il codice potrebbe essere modificato da un attaccante,
-          permettendogli quindi di eseguire codice arbitrario.\r Per evitare che
-          questo possa succedere, si può utilizzare un processo di firma e verifica
-          crittografica per assicurare che solo il codice autorizzato possa essere
-          eseguito.\r In questa presentazione vedremo come si può integrare un
-          processo di firma e verifica crittografica in Ansible. Ci soffermeremo
-          anche su alcune decisioni e suggerimenti di implementazioni per assicurare
-          che il processo risultante soddisfi tutti i requisiti."
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *fabioalessandrolocati
+      # da-dove-arriva-il-codice-ansible-che-stai-eseguendo-3:
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: Da dove arriva il codice Ansible che stai eseguendo?
+      #   talk_description: "Solitamente il codice Ansible viene eseguito con un alto livello di
+      #     accesso per assicurarsi che possa eseguire le azioni per cui è preposto.
+      #     Questo alto livello di accesso, però, crea un potenziale rischio di
+      #     sicurezza, dato che il codice potrebbe essere modificato da un attaccante,
+      #     permettendogli quindi di eseguire codice arbitrario.\r Per evitare che
+      #     questo possa succedere, si può utilizzare un processo di firma e verifica
+      #     crittografica per assicurare che solo il codice autorizzato possa essere
+      #     eseguito.\r In questa presentazione vedremo come si può integrare un
+      #     processo di firma e verifica crittografica in Ansible. Ci soffermeremo
+      #     anche su alcune decisioni e suggerimenti di implementazioni per assicurare
+      #     che il processo risultante soddisfi tutti i requisiti."
+      #   talk_video_url: ""
+      #   start_datetime: ""
+      #   end_datetime: ""
+      #   speakers:
+      #     speaker_1: *fabioalessandrolocati
       devops-real-time-anomaly-detection-with-machine-learning-4:
         item_type: talk
         track: *track_1
@@ -444,28 +444,28 @@ days:
         end_datetime: ""
         speakers:
           speaker_1: *francescacarta
-      transforming-cloud-cost-management:-a-deep-dive-into-finops-integration-with-kubernetes-for-enhanced-7:
-        item_type: talk
-        track: *track_1
-        talk_title: "Transforming Cloud Cost Management: A Deep Dive into FinOps Integration
-          with Kubernetes for Enhanced"
-        talk_description: Explore the convergence of cost management and development with FinOps in
-          the context of Kubernetes. This talk presents an integrated solution to
-          effortlessly collect costs from service providers' APIs, convert them to
-          the FinOps Foundation FOCUS specification, and store them in a central
-          data lake. Leveraging advanced algorithms, including machine learning, the
-          collected data is analyzed to uncover opportunities for cost and quality
-          of service optimization. This solution includes a closed-loop feedback
-          system where insights gleaned from the analysis are fed back into
-          Kubernetes to enhance integrated auto-scaling features. This talk will
-          unravel the complexities of FinOps within Kubernetes, gaining practical
-          insights into transforming cloud cost management and bolstering DevOps
-          efficiency.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *francescolumpp
+      # transforming-cloud-cost-management:-a-deep-dive-into-finops-integration-with-kubernetes-for-enhanced-7:
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: "Transforming Cloud Cost Management: A Deep Dive into FinOps Integration
+      #     with Kubernetes for Enhanced"
+      #   talk_description: Explore the convergence of cost management and development with FinOps in
+      #     the context of Kubernetes. This talk presents an integrated solution to
+      #     effortlessly collect costs from service providers' APIs, convert them to
+      #     the FinOps Foundation FOCUS specification, and store them in a central
+      #     data lake. Leveraging advanced algorithms, including machine learning, the
+      #     collected data is analyzed to uncover opportunities for cost and quality
+      #     of service optimization. This solution includes a closed-loop feedback
+      #     system where insights gleaned from the analysis are fed back into
+      #     Kubernetes to enhance integrated auto-scaling features. This talk will
+      #     unravel the complexities of FinOps within Kubernetes, gaining practical
+      #     insights into transforming cloud cost management and bolstering DevOps
+      #     efficiency.
+      #   talk_video_url: ""
+      #   start_datetime: ""
+      #   end_datetime: ""
+      #   speakers:
+      #     speaker_1: *francescolumpp
       gitlab-and-kubernetes:-a-deep-dive-into-the-agent-the-cluster-access-and-the-security-features-8:
         item_type: talk
         track: *track_1
@@ -490,16 +490,16 @@ days:
         end_datetime: ""
         speakers:
           speaker_1: *giuseppearancio
-      "-9":
-        item_type: talk
-        track: *track_1
-        talk_title: "TBA"
-        talk_description: ""
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *jacoponardiello
+      # "-9":
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: "TBA"
+      #   talk_description: ""
+      #   talk_video_url: ""
+      #   start_datetime: ""
+      #   end_datetime: ""
+      #   speakers:
+      #     speaker_1: *jacoponardiello
       site-reliability-engineering-to-build-high-performance-software-and-teams-10:
         item_type: talk
         track: *track_1
@@ -580,18 +580,18 @@ days:
         end_datetime: ""
         speakers:
           speaker_1: *matteodeponti
-      x-factor-voting-platform-under-the-hood-14:
-        item_type: talk
-        track: *track_1
-        talk_title: X-Factor Voting platform under the hood
-        talk_description: "How to handle huge load spikes during a live event in a serverless
-          fashion: a technical deep dive into Sky Italia's voting platform
-          architecture."
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *nicolacremaschini
+      # x-factor-voting-platform-under-the-hood-14:
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: X-Factor Voting platform under the hood
+      #   talk_description: "How to handle huge load spikes during a live event in a serverless
+      #     fashion: a technical deep dive into Sky Italia's voting platform
+      #     architecture."
+      #   talk_video_url: ""
+      #   start_datetime: ""
+      #   end_datetime: ""
+      #   speakers:
+      #     speaker_1: *nicolacremaschini
       compliance-as-code:-shift-left-and-shift-right-approach-in-a-cloud-world-15:
         item_type: talk
         track: *track_1
@@ -633,19 +633,19 @@ days:
         end_datetime: ""
         speakers:
           speaker_1: *stevenborrelli
-      taming-the-lifecycle-of-100+-kubernetes-clusters-with-k8s-plumber-an-infocert-story-17:
-        item_type: talk
-        track: *track_1
-        talk_title: Taming the Lifecycle of 100+ Kubernetes Clusters with K8s Plumber - An
-          InfoCert Story
-        talk_description: K8s Plumber è lo strumento basato su Terraform+Git che controlla il
-          lifecycle di ~100 cluster Kubernetes in InfoCert, dal provisioning 'chiavi
-          in mano', alla gestione degli upgrade dei servizi, delle configurazioni e
-          della control-plane.  Racconteremo come in InfoCert siamo arrivati al
-          100esimo cluster e della loro operatività, che ci ha portati ad
-          automatizzare tutto con Plumber. Alla fine, 'basta un click'.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *tommasodoninelli
+      # taming-the-lifecycle-of-100+-kubernetes-clusters-with-k8s-plumber-an-infocert-story-17:
+      #   item_type: talk
+      #   track: *track_1
+      #   talk_title: Taming the Lifecycle of 100+ Kubernetes Clusters with K8s Plumber - An
+      #     InfoCert Story
+      #   talk_description: K8s Plumber è lo strumento basato su Terraform+Git che controlla il
+      #     lifecycle di ~100 cluster Kubernetes in InfoCert, dal provisioning 'chiavi
+      #     in mano', alla gestione degli upgrade dei servizi, delle configurazioni e
+      #     della control-plane.  Racconteremo come in InfoCert siamo arrivati al
+      #     100esimo cluster e della loro operatività, che ci ha portati ad
+      #     automatizzare tutto con Plumber. Alla fine, 'basta un click'.
+      #   talk_video_url: ""
+      #   start_datetime: ""
+      #   end_datetime: ""
+      #   speakers:
+      #     speaker_1: *tommasodoninelli
