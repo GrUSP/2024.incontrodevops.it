@@ -172,7 +172,7 @@ speaker_12: &marianocalandra
   speaker_in_speaker_lists: true
   speaker_name: Mariano Calandra
   speaker_pic_filename: mariano-calandra.png
-  speaker_role: Microservices | Serverless | AWS Authorized Instructor
+  speaker_role: Solution architect @ Var Group
   speaker_bio: With a strong developer’s background, Mariano daily helps
     companies that wish to modernize their applications embracing microservices
     and cloud native architectures. He’s an AWS Authorized Instructor and a
