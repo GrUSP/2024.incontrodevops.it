@@ -20,6 +20,10 @@ gold:
    logo_filename: "daruma.svg"
    site_url: "http://www.darumahq.com/"
  sponsor1:
+   name: "SparkFabrik"
+   logo_filename: "sparkfabrik.svg"
+   site_url: "https://www.sparkfabrik.com/"
+ sponsor2:
    name: "workwave"
    logo_filename: "workwave.svg"
    site_url: "https://www.workwave.com/"
@@ -30,6 +34,10 @@ silver:
    site_url: "https://www.seeweb.it/"
 bronze:
   sponsor1:
+    name: "Chronosphere"
+    logo_filename: "chronosphere.svg"
+    site_url: "https://chronosphere.io/"
+  sponsor2:
     name: "Stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
