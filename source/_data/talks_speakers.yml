@@ -490,11 +490,15 @@ days:
         end_datetime: ""
         speakers:
           speaker_1: *giuseppearancio
-      "-9":
+      "The-Art-of-Cloud-Native-Defense":
         item_type: talk
         track: *track_1
-        talk_title: "TBA"
-        talk_description: ""
+        talk_title: "The Art of (Cloud Native) Defense: Pillars of Kubernetes Security"
+        talk_description: "In this session, we'll unravel the core and essential pillars of any 'secure' Kubernetes cluster, that you absolutely can't ignore if you are running Kubernetes in production (or plan to).
+        You'll discover the key concepts and strategies pivotal to safeguarding your Kubernetes environments.
+        Our focus will be on practical, real-world applications, demystifying complex security challenges.
+        Regardless if you are from a large organisation or from a small start-up, a seasoned DevOps professiyou will walk away with foundational knowledge and actionable insights, ready to implement stronger security measures in their Kubernetes deployments.
+        Whether you're a seasoned DevOps professional or new to the cloud native arena, this talk will enhance your understanding of Kubernetes security, ensuring you're prepared for the evolving landscape of cloud native security."
         talk_video_url: ""
         start_datetime: ""
         end_datetime: ""
