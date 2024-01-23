@@ -10,13 +10,13 @@ menu:
   # schedule: programma
   # scommentare per generare pagina
   # menu item for workshop
-  # workshop: workshop
+  workshop: workshop
   sponsor: sponsor
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
-# workshop_submenu:
-#   font_variabili: Tipografia web e font variabili
-#   workshop_2: sample second workshop
+workshop_submenu:
+  introduzione_kubernetes: Introduzione a Kubernetes
+
 
 # welcome submenu
 welcome_submenu:

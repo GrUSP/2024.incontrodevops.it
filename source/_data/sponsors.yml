@@ -29,6 +29,10 @@ gold:
    site_url: "https://www.workwave.com/"
 silver:
  sponsor1:
+   name: "Facile.it"
+   logo_filename: "facile.svg"
+   site_url: "https://www.facile.it/"
+ sponsor2:
    name: "Seeweb"
    logo_filename: "seeweb.png"
    site_url: "https://www.seeweb.it/"

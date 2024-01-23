@@ -58,9 +58,10 @@ conference:
   geninfo_title: "Che cos'è?"
   geninfo_description: "IDI Incontro DevOps Italia 2024 è la <b>12° edizione della conferenza italiana dedicata alle tematiche DevOps.</b>
     </br> <br /> Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability... e molto altro.
-    </br> <br /> La conferenza si svolge Venerdì 15 Marzo 2024 in modalità <b>ibrida: in presenza a Bologna, e online</b>."
+    </br> <br /> La conferenza si svolge Venerdì 15 Marzo 2024 in modalità <b>ibrida: in presenza a Bologna, e online</b>.
+    </br> <br /> Il giorno prima, Giovedì 14 Marzo, nella stessa location a Bologna, si svolge <a href='https://2024.incontrodevops.it/workshop/'>un workshop dedicato a Kubernetes</a>. I biglietti sono in vendita separatamente.
 
-  # </br> <br /> Il giorno prima, Giovedì 9 Marzo, nella stessa location a Bologna, si svolgono <a href='https://2023.incontrodevops.it/workshop/'>tre workshop</a>. I biglietti sono in vendita separatamente."
+    </br> <br /> Inoltre, Giovedì 14 Marzo nella stessa venue, si svolge anche <a href='https://2024.dxday.it'>la prima edizione di dxday</a>, una conferenza GrUSP dedicata alla <b>Developer Experience.</b>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarship"
@@ -116,7 +117,7 @@ conference:
     - "kubernetes"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: false
+  workshop_visible: true
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"

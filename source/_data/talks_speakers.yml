@@ -238,11 +238,8 @@ speaker_17: &tommasodoninelli
   speaker_in_speaker_lists: true
   speaker_name: Tommaso Doninelli
   speaker_pic_filename: tommaso-doninelli.png
-  speaker_role: Co-founder @ HakunaCloud
-  speaker_bio: "Tommaso Doninelli is the co-founder of HakunaCloud, a managed
-    container-as-a-service platform. He worked as Software Engineer at Amazon
-    AWS, and as CTO at PTV Group - SISTeMA. He has lived in 5 different
-    countries and has sailed in 3 different seas. "
+  speaker_role: System Architect @ Infocert
+  speaker_bio: "Tommaso is a System Architect at Infocert, managing the Cloud infrastructure and many Kubernetes clusters. He worked as CTO for a startup in infomobilty. He has been a Software Engineer at Amazon AWS and a scaleup in ad-tech industry. He founded a startup providing a container as a service platform "
   speaker_twitter: https://twitter.com/glicerina_
   speaker_github: https://github.com/totomz/
   speaker_linkedin: https://www.linkedin.com/in/tdoninelli/
