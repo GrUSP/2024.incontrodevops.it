@@ -7,7 +7,7 @@ language: "it"
 menu:
   welcome: welcome
   talks_speakers: talk & speaker
-  # schedule: programma
+  schedule: programma
   # scommentare per generare pagina
   # menu item for workshop
   workshop: workshop
