@@ -16,7 +16,14 @@
   </url>
   
   <url>
-    <loc>https://2024.incontrodevops.it/schedule/index.html</loc>
+    <loc>https://2024.incontrodevops.it/workshop/introduzione_kubernetes.html</loc>
+    
+    <lastmod>2024-02-07</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.incontrodevops.it/welcome/where.html</loc>
     
     <lastmod>2024-02-07</lastmod>
     
@@ -24,13 +31,6 @@
   
   <url>
     <loc>https://2024.incontrodevops.it/talks_speakers/index.html</loc>
-    
-    <lastmod>2024-02-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.incontrodevops.it/sponsor/index.html</loc>
     
     <lastmod>2024-02-07</lastmod>
     
@@ -58,14 +58,7 @@
   </url>
   
   <url>
-    <loc>https://2024.incontrodevops.it/workshop/introduzione_kubernetes.html</loc>
-    
-    <lastmod>2024-02-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.incontrodevops.it/welcome/coc.html</loc>
+    <loc>https://2024.incontrodevops.it/welcome/scholarships.html</loc>
     
     <lastmod>2024-02-07</lastmod>
     
@@ -79,6 +72,13 @@
   </url>
   
   <url>
+    <loc>https://2024.incontrodevops.it/welcome/coc.html</loc>
+    
+    <lastmod>2024-02-07</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2024.incontrodevops.it/welcome/safety.html</loc>
     
     <lastmod>2024-02-07</lastmod>
@@ -86,14 +86,14 @@
   </url>
   
   <url>
-    <loc>https://2024.incontrodevops.it/welcome/scholarships.html</loc>
+    <loc>https://2024.incontrodevops.it/schedule/index.html</loc>
     
     <lastmod>2024-02-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.incontrodevops.it/welcome/where.html</loc>
+    <loc>https://2024.incontrodevops.it/sponsor/index.html</loc>
     
     <lastmod>2024-02-07</lastmod>
     
