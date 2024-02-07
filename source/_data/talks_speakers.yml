@@ -15,7 +15,7 @@ speaker_1: &alessandrabilardi
     origins: data and ML solutions, from IoT, data design, data analysis and
     prediction, to data visualizations. I love playing and sharing: I’m AWS &
     PyData evangelist and Coderdojo mentor."
-  speaker_twitter_url_url: https://twitter.com/abilardi
+  speaker_twitter_url: https://twitter.com/abilardi
   speaker_github_url: https://github.com/bilardi
   speaker_linkedin_url: https://www.linkedin.com/in/bilardi/
 speaker_2: &ericdschabell
@@ -238,20 +238,20 @@ speaker_17: &tommasodoninelli
   speaker_in_speaker_lists: true
   speaker_name: Tommaso Doninelli
   speaker_pic_filename: tommaso-doninelli.png
-  speaker_role: System Architect @ Infocert
-  speaker_bio: "Tommaso is a System Architect at Infocert, managing the Cloud infrastructure and many Kubernetes clusters. He worked as CTO for a startup in infomobilty. He has been a Software Engineer at Amazon AWS and a scaleup in ad-tech industry. He founded a startup providing a container as a service platform "
+  speaker_role: System Architect @ InfoCert
+  speaker_bio: "Tommaso is a System Architect at InfoCert, managing the Cloud infrastructure and many Kubernetes clusters. He worked as CTO for a startup in infomobilty. He has been a Software Engineer at Amazon AWS and a scaleup in ad-tech industry. He founded a startup providing a container as a service platform "
   speaker_twitter_url: "https://twitter.com/glicerina_"
   speaker_github_url: "https://github.com/totomz/"
-  speaker_linkedin_url_url_url: "https://www.linkedin.com/in/tdoninelli/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/tdoninelli/"
 speaker_18: &linotelera
   speaker_in_speaker_lists: true
   speaker_name: Lino Telera
   speaker_pic_filename: lino-telera.png
   speaker_role: "Cloud Architect @ InfoCert"
-  speaker_bio:  "Cloud Architect focused on Infrastructure Automation for InfoCert S.p.A..
-  After earning the first VMware certification he joined VMware Users Group Italy in 2015, and he attended the first VMware {code} hackathon in 2016. Lino is a TechFieldDay delegate and he likes to spend the spare time authoring his <a href='https://blog.linoproject.net'>blog</a>, running the Italian podcast 'ThePipelineGuys' and teaching code to kids with CoderDojo initiatives. Recently he started teaching at Università Cattolica del Sacro Cuore (CR)"
+  speaker_bio:  "Cloud Architect focused on Infrastructure Automation for InfoCert S.p.A.. After earning the first VMware certification he joined VMware Users Group Italy in 2015, and he attended the first VMware {code} hackathon in 2016. Lino is a TechFieldDay delegate and he likes to spend the spare time authoring his blog (http://blog.linoproject.net ), running the Italian podcast 'ThePipelineGuys' and teaching at Università Cattolica del Sacro Cuore (CR)"
   speaker_github_url: "https://github.com/linotelera"
   speaker_twitter_url: "https://twitter.com/linotelera"
+  speaker_linkedin_url: "https://www.linkedin.com/in/lino-telera-6973099/"
 
 speakers:
   speaker_1: *alessandrabilardi
