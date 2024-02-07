@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2024.incontrodevops.it/welcome/cfp.html</loc>
+    <loc>https://2024.incontrodevops.it/welcome/about.html</loc>
     
     <lastmod>2024-02-07</lastmod>
     
@@ -23,14 +23,14 @@
   </url>
   
   <url>
-    <loc>https://2024.incontrodevops.it/sponsor/index.html</loc>
+    <loc>https://2024.incontrodevops.it/talks_speakers/index.html</loc>
     
     <lastmod>2024-02-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.incontrodevops.it/talks_speakers/index.html</loc>
+    <loc>https://2024.incontrodevops.it/sponsor/index.html</loc>
     
     <lastmod>2024-02-07</lastmod>
     
@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>https://2024.incontrodevops.it/welcome/about.html</loc>
+    <loc>https://2024.incontrodevops.it/welcome/coc.html</loc>
     
     <lastmod>2024-02-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.incontrodevops.it/welcome/coc.html</loc>
+    <loc>https://2024.incontrodevops.it/welcome/cfp.html</loc>
     
     <lastmod>2024-02-07</lastmod>
     
