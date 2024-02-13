@@ -609,21 +609,10 @@ days:
           speaker_1: *tommasodoninelli
           speaker_2: *linotelera
 
-      x-factor-voting-platform-under-the-hood-14:
-        item_type: talk
-        track: *track_1
-        talk_title: X-Factor Voting platform under the hood
-        talk_description: "How to handle huge load spikes during a live event in a serverless
-          fashion: a technical deep dive into Sky Italia's voting platform
-          architecture."
-        talk_video_url: ""
-        start_datetime: 2024-03-15T16:30+01:00
-        end_datetime: 2024-03-15T17:05+01:00
-        speakers:
-          speaker_1: *nicolacremaschini
+
       transforming-cloud-cost-management:-a-deep-dive-into-finops-integration-with-kubernetes-for-enhanced-7:
         item_type: talk
-        track: *track_2
+        track: *track_1
         talk_title: "Transforming Cloud Cost Management: A Deep Dive into FinOps Integration
           with Kubernetes for Enhanced"
         talk_description: Explore the convergence of cost management and development with FinOps in
@@ -643,6 +632,18 @@ days:
         end_datetime: 2024-03-15T17:05+01:00
         speakers:
           speaker_1: *francescolumpp
+      x-factor-voting-platform-under-the-hood-14:
+        item_type: talk
+        track: *track_2
+        talk_title: X-Factor Voting platform under the hood
+        talk_description: "How to handle huge load spikes during a live event in a serverless
+          fashion: a technical deep dive into Sky Italia's voting platform
+          architecture."
+        talk_video_url: ""
+        start_datetime: 2024-03-15T16:30+01:00
+        end_datetime: 2024-03-15T17:05+01:00
+        speakers:
+          speaker_1: *nicolacremaschini
 
       devops-real-time-anomaly-detection-with-machine-learning-4:
         item_type: talk
