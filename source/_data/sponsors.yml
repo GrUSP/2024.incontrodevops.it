@@ -21,7 +21,7 @@ platinum:
   sponsor3:
     name: "vianova"
     logo_filename: "vianova.svg"
-    site_url: "https://www.vianova.it/people/"
+    site_url: "https://www.vianova.it/"
 gold:
  sponsor0:
    name: "Daruma"
@@ -41,30 +41,38 @@ silver:
    logo_filename: "facile.svg"
    site_url: "https://www.facile.it/"
  sponsor2:
+   name: "Madisoft"
+   logo_filename: "madisoft.svg"
+   site_url: "https://labs.madisoft.it/"
+ sponsor3:
    name: "Seeweb"
    logo_filename: "seeweb.png"
    site_url: "https://www.seeweb.it/"
 bronze:
-  sponsor1:
-    name: "Beliven"
-    logo_filename: "beliven.svg"
-    site_url: "https://beliven.com/"
-  sponsor2:
-    name: "Chronosphere"
-    logo_filename: "chronosphere.svg"
-    site_url: "https://chronosphere.io/"
-  sponsor3:
-    name: "Hazelcast"
-    logo_filename: "hazelcast.svg"
-    site_url: "https://hazelcast.com/"
-  sponsor4:
-    name: "Mia-Platform"
-    logo_filename: "miaplatform.svg"
-    site_url: "https://mia-platform.eu/"
-  sponsor5:
-    name: "Stickermule"
-    logo_filename: "stickermule.svg"
-    site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
+ sponsor1:
+   name: "Beliven"
+   logo_filename: "beliven.svg"
+   site_url: "https://beliven.com/"
+ sponsor2:
+   name: "Chronosphere"
+   logo_filename: "chronosphere.svg"
+   site_url: "https://chronosphere.io/"
+ sponsor3:
+   name: "Hazelcast"
+   logo_filename: "hazelcast.svg"
+   site_url: "https://hazelcast.com/"
+ sponsor4:
+   name: "Mia-Platform"
+   logo_filename: "miaplatform.svg"
+   site_url: "https://mia-platform.eu/"
+ sponsor5:
+   name: "Red Hat"
+   logo_filename: "redhat.svg"
+   site_url: "https://www.redhat.com/"
+ sponsor6:
+   name: "Stickermule"
+   logo_filename: "stickermule.svg"
+   site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
 # diversity:
 #   sponsor1:
 #     name: "S"
