@@ -6,6 +6,10 @@ sponsors_block_title: "Grazie al supporto di"
 #    site_url: ""
 diamond:
   sponsor1:
+    name: "NTTdata"
+    logo_filename: "nttdata.svg"
+    site_url: "https://it.nttdata.com/"
+  sponsor2:
     name: "SIGHUP"
     logo_filename: "sighup.svg"
     site_url: "https://sighup.io/"
@@ -37,17 +41,29 @@ gold:
    site_url: "https://www.workwave.com/"
 silver:
  sponsor1:
+   name: "Apparound"
+   logo_filename: "apparound.png"
+   site_url: "https://www.apparound.com/"
+ sponsor2:
    name: "Facile.it"
    logo_filename: "facile.svg"
    site_url: "https://www.facile.it/"
- sponsor2:
+ sponsor3:
    name: "Madisoft"
    logo_filename: "madisoft.svg"
-   site_url: "https://labs.madisoft.it/"
- sponsor3:
+   site_url:
+ sponsor4:
+   name: "Recube"
+   logo_filename: "recube.png"
+   site_url: "https://www.recube.it/"
+ sponsor5:
    name: "Seeweb"
    logo_filename: "seeweb.png"
    site_url: "https://www.seeweb.it/"
+ sponsor6:
+   name: "Switcho"
+   logo_filename: "switcho.svg"
+   site_url: "https://www.switcho.it"
 bronze:
  sponsor1:
    name: "Beliven"
@@ -62,14 +78,18 @@ bronze:
    logo_filename: "hazelcast.svg"
    site_url: "https://hazelcast.com/"
  sponsor4:
+   name: "Infocert"
+   logo_filename: "infocert.svg"
+   site_url: "https://www.infocert.it/"
+ sponsor5:
    name: "Mia-Platform"
    logo_filename: "miaplatform.svg"
    site_url: "https://mia-platform.eu/"
- sponsor5:
+ sponsor6:
    name: "Red Hat"
    logo_filename: "redhat.svg"
    site_url: "https://www.redhat.com/"
- sponsor6:
+ sponsor7:
    name: "Stickermule"
    logo_filename: "stickermule.svg"
    site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
