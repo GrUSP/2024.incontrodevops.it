@@ -27,22 +27,26 @@ platinum:
     logo_filename: "vianova.svg"
     site_url: "https://www.vianova.it/"
 gold:
- sponsor0:
+ sponsor1:
    name: "Daruma"
    logo_filename: "daruma.svg"
    site_url: "http://www.darumahq.com/"
- sponsor1:
+ sponsor2:
+   name: "Fastly"
+   logo_filename: "fastly.svg"
+   site_url: "https://www.fastly.com/"
+ sponsor3:
    name: "SparkFabrik"
    logo_filename: "sparkfabrik.svg"
    site_url: "https://www.sparkfabrik.com/"
- sponsor2:
+ sponsor4:
    name: "workwave"
    logo_filename: "workwave.svg"
    site_url: "https://www.workwave.com/"
 silver:
  sponsor1:
    name: "Apparound"
-   logo_filename: "apparound.png"
+   logo_filename: "apparound.svg"
    site_url: "https://www.apparound.com/"
  sponsor2:
    name: "Facile.it"
@@ -64,6 +68,10 @@ silver:
    name: "Switcho"
    logo_filename: "switcho.svg"
    site_url: "https://www.switcho.it"
+ sponsor7:
+   name: "Var Group"
+   logo_filename: "vargroup.svg"
+   site_url: "https://www.vargroup.it/"
 bronze:
  sponsor1:
    name: "Beliven"
