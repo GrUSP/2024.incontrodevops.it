@@ -252,6 +252,24 @@ speaker_18: &linotelera
   speaker_github_url: "https://github.com/linotelera"
   speaker_twitter_url: "https://twitter.com/linotelera"
   speaker_linkedin_url: "https://www.linkedin.com/in/lino-telera-6973099/"
+speaker_19: &fabiomora
+  speaker_in_speaker_lists: true
+  speaker_name: Fabio Mora
+  speaker_pic_filename: fabio-mora.png
+  speaker_role: "MASTER OF CEREMONIES"
+  speaker_bio:  ""
+  is_mc: true
+
+speaker_20: &raffaelecolace
+  speaker_in_speaker_lists: true
+  speaker_name: Raffaele Colace
+  speaker_pic_filename: raffaele-colace.png
+  speaker_role: "MASTER OF CEREMONIES - COO @ 20tab"
+  speaker_bio:
+  is_mc: true
+
+
+
 
 speakers:
   speaker_1: *alessandrabilardi
@@ -272,6 +290,9 @@ speakers:
   speaker_16: *stevenborrelli
   speaker_17: *tommasodoninelli
   speaker_18: *linotelera
+  speaker_19: *fabiomora
+  speaker_20: *raffaelecolace
+
 
 tracks:
   track_1: &track_1
