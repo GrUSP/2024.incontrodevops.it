@@ -256,7 +256,7 @@ speaker_19: &fabiomora
   speaker_in_speaker_lists: true
   speaker_name: Fabio Mora
   speaker_pic_filename: fabio-mora.png
-  speaker_role: "MASTER OF CEREMONIES"
+  speaker_role: "MASTER OF CEREMONIES - Software Engineer"
   speaker_bio:  ""
   is_mc: true
 
